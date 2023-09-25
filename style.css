@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.brand > span {
+.brand > span .name {
     font-size: 1.5rem;
     margin: auto;
 }
@@ -60,4 +60,41 @@ body > header > div > div > span{
 body > header > div > nav > div > a > span {
     font-weight: 500;
     font-size: 1rem;
+}
+
+body > main > section > div {
+    padding: 48px 16px;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+body > main > section > div > div > div > div.intro > p:nth-child(1){
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+body > main > section > div > div > div > div.intro > p:nth-child(2){
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body > main > section > div > div > div > div.icon-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+body > main > section > div > div > div > div.icon-wrapper > div > a {
+    padding: 10px;
+    text-decoration: none;
 }
