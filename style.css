@@ -25,6 +25,7 @@
 .icon-wrapper > a {
     text-decoration: none;
     padding: 10px;
+    color: #ccd2db;
 }
 
 nav {
@@ -45,6 +46,7 @@ ul > li {
 li > a {
     text-decoration: none;
     padding: 12px 16px;
+    color: #ccd2db;
 }
 
 body {
@@ -62,7 +64,7 @@ body > header > div > nav > div > a > span {
     font-size: 1rem;
 }
 
-body > main > section > div {
+body > main > section > div .konten {
     padding: 48px 16px;
 }
 
@@ -97,4 +99,164 @@ body > main > section > div > div > div > div.icon-wrapper {
 body > main > section > div > div > div > div.icon-wrapper > div > a {
     padding: 10px;
     text-decoration: none;
+}
+
+body > main > section.skill > div {
+    display: flex;
+    justify-content: center;
+}
+
+body > main > section.skill > div > div > div.tittle {
+    text-align: center;
+}
+
+.skill {
+    padding: 0 24;
+}
+
+.parent {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+    body > main > section.skill > div > div > div.container-skill > div > div{
+        text-align: center;
+    }
+
+    body > main > section.skill > div > div > div.tittle > p:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 1000;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 {
+        font-size: 3rem;
+    }
+
+    body > main > section.skill > .container-skill {
+        padding: 0 24px;
+    }
+
+    body > main > section.skill > div > div {
+        width: 100%;
+    }
+
+    body > main > section.skill > div > div > div.tittle > p:nth-child(1){
+        margin: 0px;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 {
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+
+    body > main > section.skill > div > div > div.tittle {
+        margin-bottom: 32px;
+    }
+
+    .skill {
+        margin-top: 100px;
+    }
+
+    .konten{
+        padding: 48px 16px;
+    }
+
+    .hero {
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill {
+        height: 110vh;
+    }
+
+    body {
+        background-color: #0f172a;
+    }
+
+    body > header > div > div > span{
+        /* color:#a9acb2; */
+        color: white;
+    }
+
+     
+
+    body > main > section.hero > div > div > h1 > span:nth-child(1){
+        color:#cbd5e1 ;
+    }
+
+    body > main > section.hero > div > div > h1 > span:nth-child(2){
+        color: #09aede;
+    }
+
+    body > main > section.hero > div > div > div{
+        color: #a9acb2;
+    }
+
+    body > main > section.hero > div > div > div > div.icon-wrapper > div > a > span{
+        color: white;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(1){
+        color: #a9acb2;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(2){
+        color: #09aede;
+    }
+
+    body {
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    body > main > section.skill > div > div > div.tittle {
+        padding: 24px 0px;
+    }
+
+    body > main > section.skill {
+        background-color:#1e293b ;
+    }
+
+    footer {
+        padding: 0px 24px;
+    }
+
+    /* card  */
+    .card {
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #0f172a;
+      }
+      
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .card-text {
+        font-size: 1rem;
+      }
+
+      body > main > section.skill > div > div > div.container-skill > div {
+        justify-content: center;
+
+      }
+
+footer .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
 }
