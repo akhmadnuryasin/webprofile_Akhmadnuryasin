@@ -127,7 +127,7 @@ body > main > section.skill > div > div > div.tittle {
         text-align: center;
     }
 
-    body > main > section.skill > div > div > div.tittle > p:nth-child(1) {
+    body > main > section.skill > div > div > div.tittle > p:nth-child(1),body > main > section.favorite_stack > div > div > div.tittle > p:nth-child(1) {
         font-size: 1rem;
         font-weight: 1000;
     }
@@ -199,15 +199,15 @@ body > main > section.skill > div > div > div.tittle {
         color: #a9acb2;
     }
 
-    body > main > section.hero > div > div > div > div.icon-wrapper > div > a > span{
+    body > main > section.hero > div > div > div > div.icon-wrapper > div > a > span,body > main > section.favorite_stack > div > div > div.tittle > p:nth-child(1){
         color: white;
     }
 
-    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(1){
+    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(1),body > main > section.favorite_stack > div > div > div.tittle > h2 > span:nth-child(1){
         color: #a9acb2;
     }
 
-    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(2){
+    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(2),body > main > section.favorite_stack > div > div > div.tittle > h2 > span:nth-child(2){
         color: #09aede;
     }
 
@@ -231,6 +231,8 @@ body > main > section.skill > div > div > div.tittle {
 
     /* card  */
     .card {
+        height: 180px;
+        border: 3px solid #1e293b;
         border-radius: 10px;
         padding: 20px;
         width: 300px;
@@ -240,13 +242,16 @@ body > main > section.skill > div > div > div.tittle {
       }
       
       .card-title {
+        margin-top: 0px;
         font-size: 1.25rem;
         font-weight: bold;
         margin-bottom: 10px;
+        text-align: left;
       }
       
       .card-text {
         font-size: 1rem;
+        text-align: left;
       }
 
       body > main > section.skill > div > div > div.container-skill > div {
@@ -260,3 +265,64 @@ footer .footer-wrapper{
     align-items: center;
     padding: 32px 0px;
 }
+
+body > main > section.favorite_stack > div > div > div.tittle {
+    text-align: center;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle > h2 {
+    font-size: 48px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle > p:nth-child(1) {
+    margin: 0px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle {
+    padding: 24px 0px;
+    margin-bottom: 32px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle > h2 {
+    margin-bottom: 16px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+body > main > section.favorite_stack > div > div {
+    background-color: #151c29;
+    margin: 80px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+body > main > section.favorite_stack > div > div {
+    margin-top: 130px;
+}
+
+body > main > section:nth-child(4) > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e293b;
+    margin: 40px 340px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body > main > section:nth-child(4) > div > div > a > span {
+    color: white;
+}
+
+body > main > section:nth-child(4) > div > div > a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+
