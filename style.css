@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -467,4 +472,26 @@ header {
     background-color: #0f172a;
     padding: 10px 0;
     z-index: 1000; 
-}
+} 
+
+
+#skill , #career{
+    scroll-margin-top: 100px; 
+  }
+
+  #contact > div:nth-child(1){
+    flex-direction: column;
+  }
+  #contact > div:nth-child(1) > h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  #contact > div:nth-child(1) > p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    margin-bottom: 130px;
+  }
