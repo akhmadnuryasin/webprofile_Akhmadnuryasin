@@ -325,4 +325,8 @@ body > main > section:nth-child(4) > div > div > a {
     margin: 20px;
 }
 
-
+body > main > section.favorite_stack > div > div > div.container-skill > div > div {
+    background-color: #151c29;
+    border: none;
+    box-shadow: none;
+}
