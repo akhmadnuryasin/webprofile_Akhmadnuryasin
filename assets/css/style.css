@@ -313,7 +313,7 @@ body > main > section:nth-child(4) > div {
     justify-content: center;
     align-items: center;
     background-color: #1e293b;
-    margin: 40px 340px;
+    margin: 120px 340px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -493,7 +493,7 @@ header {
   }
 
   #contact {
-    margin-bottom: 130px;
+    margin-bottom: 0px;
   }
 
   .icon-wrapper-card {
@@ -531,4 +531,107 @@ header {
 
 body > main > section.hero > div {
     margin-top: 120px;
+}
+
+#about > .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#about > .container > .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about > .container > .left >img {
+    width: 80%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+#about > .tittle {
+    text-align: center;
+}
+
+#about > .container > .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#about > div.tittle > h2 ,#contact > div.tittle > h2{
+    font-size: 48px;
+}
+
+#about > div.tittle > h2 > span:nth-child(1) ,#contact > div.tittle > h2 > span:nth-child(1){
+    color: #a9acb2;
+}
+
+#about > div.tittle > h2 > span:nth-child(2),#contact > div.tittle > h2 > span:nth-child(2) {
+    color: #09aede ;
+}
+
+#about > div.tittle > p:nth-child(1),#contact > div.tittle > p:nth-child(1) {
+    color: #a5f3fc;
+    font-size: 1rem;
+    font-weight: 1000;
+    margin: 0px;
+}
+
+#about > div.tittle > h2 ,#contact > div.tittle > h2{
+    margin: 0px;
+}
+
+#about {
+    scroll-margin-top: 80px; 
+}
+
+#about > div.container > div.right > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 24px;
+    border: 2px solid #0ea4e8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#contact {
+    height: 85vh;
+    scroll-margin-top:100px ;
+}
+
+#contact > div.tittle {
+    background-color: #1e293b;
+    margin-bottom: 0px;
+}
+
+#contact > div.icon-wrapper > div {
+    background-color: #1e293b;
+}
+
+#contact > div.icon-wrapper {
+    background-color: #1e293b;
+}
+
+#contact {
+    background-color: #1e293b;
+}
+
+#contact > div.tittle ,#about > div.tittle{
+    padding-top:24px ;
 }
