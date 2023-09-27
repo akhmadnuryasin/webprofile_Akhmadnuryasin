@@ -522,3 +522,13 @@ header {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
+
+ 
+
+#career > div > div > div.tittle > p:nth-child(1),#skill > div > div > div.tittle > p:nth-child(1){
+    color:#a5f3fc ;
+}
+
+body > main > section.hero > div {
+    margin-top: 120px;
+}
