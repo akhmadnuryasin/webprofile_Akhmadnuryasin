@@ -1,0 +1,524 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    height: 48px;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand > span .name {
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon-wrapper > a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ccd2db;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+li > a {
+    text-decoration: none;
+    padding: 12px 16px;
+    color: #ccd2db;
+}
+
+body {
+    font-family: RubikVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+body > header > div > div > span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+body > header > div > nav > div > a > span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+body > main > section > div .konten {
+    padding: 48px 16px;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+body > main > section > div > div > div > div.intro > p:nth-child(1){
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+body > main > section > div > div > div > div.intro > p:nth-child(2){
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body > main > section > div > div > div > div.icon-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+body > main > section > div > div > div > div.icon-wrapper > div > a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+body > main > section.skill > div {
+    display: flex;
+    justify-content: center;
+}
+
+body > main > section.skill > div > div > div.tittle {
+    text-align: center;
+}
+
+.skill {
+    padding: 0 24;
+}
+
+.parent {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+    body > main > section.skill > div > div > div.container-skill > div > div{
+        text-align: center;
+    }
+
+    body > main > section.skill > div > div > div.tittle > p:nth-child(1),body > main > section.favorite_stack > div > div > div.tittle > p:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 1000;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 {
+        font-size: 3rem;
+    }
+
+    body > main > section.skill > .container-skill {
+        padding: 0 24px;
+    }
+
+    body > main > section.skill > div > div {
+        width: 100%;
+    }
+
+    body > main > section.skill > div > div > div.tittle > p:nth-child(1){
+        margin: 0px;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 {
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+
+    body > main > section.skill > div > div > div.tittle {
+        margin-bottom: 32px;
+    }
+
+    .skill {
+        margin-top: 100px;
+    }
+
+    .konten{
+        padding: 48px 16px;
+    }
+
+    .hero {
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill {
+        height: 110vh;
+    }
+
+    body {
+        background-color: #0f172a;
+    }
+
+    body > header > div > div > span{
+        /* color:#a9acb2; */
+        color: white;
+    }
+
+     
+
+    body > main > section.hero > div > div > h1 > span:nth-child(1){
+        color:#cbd5e1 ;
+    }
+
+    body > main > section.hero > div > div > h1 > span:nth-child(2){
+        color: #09aede;
+    }
+
+    body > main > section.hero > div > div > div{
+        color: #a9acb2;
+    }
+
+    body > main > section.hero > div > div > div > div.icon-wrapper > div > a > span,body > main > section.favorite_stack > div > div > div.tittle > p:nth-child(1){
+        color: white;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(1),body > main > section.favorite_stack > div > div > div.tittle > h2 > span:nth-child(1){
+        color: #a9acb2;
+    }
+
+    body > main > section.skill > div > div > div.tittle > h2 > span:nth-child(2),body > main > section.favorite_stack > div > div > div.tittle > h2 > span:nth-child(2){
+        color: #09aede;
+    }
+
+    body {
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    body > main > section.skill > div > div > div.tittle {
+        padding: 24px 0px;
+    }
+
+    body > main > section.skill {
+        background-color:#1e293b ;
+    }
+
+    footer {
+        padding: 0px 24px;
+    }
+
+    /* card  */
+    .card {
+        height: 180px;
+        border: 3px solid #1e293b;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #0f172a;
+      }
+      
+      .card-title {
+        margin-top: 0px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+      
+      .card-text {
+        font-size: 1rem;
+        text-align: left;
+      }
+
+      body > main > section.skill > div > div > div.container-skill > div {
+        justify-content: center;
+
+      }
+
+footer .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle {
+    text-align: center;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle > h2 {
+    font-size: 48px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle > p:nth-child(1) {
+    margin: 0px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle {
+    padding: 24px 0px;
+    margin-bottom: 32px;
+}
+
+body > main > section.favorite_stack > div > div > div.tittle > h2 {
+    margin-bottom: 16px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+body > main > section.favorite_stack > div > div {
+    background-color: #151c29;
+    margin: 80px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+body > main > section.favorite_stack > div > div {
+    margin-top: 130px;
+}
+
+body > main > section:nth-child(4) > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e293b;
+    margin: 40px 340px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body > main > section:nth-child(4) > div > div > a > span {
+    color: white;
+}
+
+body > main > section:nth-child(4) > div > div > a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+body > main > section.favorite_stack > div > div > div.container-skill > div > div {
+    background-color: #151c29;
+    border: none;
+    box-shadow: none;
+}
+
+/* icon */
+body > main > section.hero > div > div > div > div.icon-wrapper > div > a > i {
+    margin-right: 5px;
+    color: white;
+}
+
+body > main > section.hero > div > div > div > div.icon-wrapper > div > a {
+    margin: 0px 0.75rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body > main > section.hero > div > div > div > div.icon-wrapper > div > a:nth-child(1) {
+    width: auto;
+    background-color: #1d9bf0;
+}
+
+body > main > section.hero > div > div > div > div.icon-wrapper > div > a:nth-child(2) {
+    width: auto;
+    background-color: #0a66c2;
+}
+
+body > main > section.hero > div > div > div > div.icon-wrapper > div > a:nth-child(3) {
+    width: auto;
+    background-color: #27a7e7;
+}
+
+body > main > section.hero > div > div > div > div.icon-wrapper > div > a:nth-child(4) {
+    width: auto;
+    background-color: #333333;
+}
+
+body > main > section.hero > div > div > div > div.intro {
+    margin-bottom: 32px;
+}
+
+body > main > section:nth-child(4) > div > div > div.box > a {
+    color: white;
+    margin: 0px 0.75rem;
+    text-decoration: none;
+}
+
+body > main > section:nth-child(4) > div > div > div.box > a > i {
+margin-right: 10px;
+}
+
+body > main > section:nth-child(4) > div > div > div.box{
+    padding: 10px;
+    margin: 0px 0.75rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body > main > section:nth-child(4) > div > div > div.box.box1{
+    background-color:#1d9bf0;
+}
+
+body > main > section:nth-child(4) > div > div > div.box.box2{
+    background-color:#0a66c2;
+}
+
+body > main > section:nth-child(4) > div > div > div.box.box3{
+    background-color:#0a66c2;
+}
+
+
+body > main > section:nth-child(4) > div > div > div.box.box4{
+    background-color:#333333;
+}
+
+body > main > section:nth-child(4) > div > div {
+    padding: 40px 0px;
+}
+
+body > header > div > nav > div > a {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body > header > div > nav > div > a:nth-child(1):hover {
+    color: #1d9bf0;
+    background-color: rgba(203,213,225, 0.45);
+}
+
+body > header > div > nav > div > a:nth-child(2):hover {
+    color: #333333;
+    background-color: rgba(203,213,225, 0.45);
+}
+
+body > header > div > nav > div > a:nth-child(3):hover {
+    color: #0a66c2;
+    background-color: rgba(203,213,225, 0.45);
+}
+
+body > header > div > nav > div > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+}
+
+body > header > div > .brand :hover{
+    color:rgb(103,232,249) ;
+}
+
+body > header > div > nav > ul > li > a {
+    font-weight: 700;
+}
+
+body > header > div > nav > ul > li > a :hover {
+    color: white;
+}
+
+body > footer > div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* fixed navbar  */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0f172a;
+    padding: 10px 0;
+    z-index: 1000; 
+} 
+
+
+#skill , #career{
+    scroll-margin-top: 100px; 
+  }
+
+  #contact > div:nth-child(1){
+    flex-direction: column;
+  }
+  #contact > div:nth-child(1) > h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  #contact > div:nth-child(1) > p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    margin-bottom: 130px;
+  }
+
+  .icon-wrapper-card {
+    display: flex;
+    align-items: center;
+  }
+
+  #career > div > div > div.container-skill > div > div > div > div > div{
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  #skill > div > div > div.container-skill > div > div > div > div > div {
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color:#06b6d4;
+    box-sizing: border-box;
+    width: 23px;
+    height: 23px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
